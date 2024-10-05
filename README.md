@@ -30,6 +30,9 @@ fvm flutter pub run build_runner build --delete-conflicting-outputs
 fvm flutter build apk
 ```
 
+## Image App
+![alt text](Screenshot_1728105439.png) ![alt text](Screenshot_1728105446.png) ![alt text](Screenshot_1728105453.png)
+
 ## Help
 
 problems or issues.
