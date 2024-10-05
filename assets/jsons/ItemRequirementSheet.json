@@ -1,0 +1,1682 @@
+[
+ {
+   "item_id": 10100000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10110000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10111000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10112000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10113000,
+   "level": 20,
+   "mimislevel": 20
+ },
+ {
+   "item_id": 10114000,
+   "level": 70,
+   "mimislevel": 70
+ },
+ {
+   "item_id": 10120000,
+   "level": 10,
+   "mimislevel": 10
+ },
+ {
+   "item_id": 10121000,
+   "level": 10,
+   "mimislevel": 10
+ },
+ {
+   "item_id": 10122000,
+   "level": 10,
+   "mimislevel": 10
+ },
+ {
+   "item_id": 10123000,
+   "level": 70,
+   "mimislevel": 70
+ },
+ {
+   "item_id": 10124000,
+   "level": 130,
+   "mimislevel": 130
+ },
+ {
+   "item_id": 10130000,
+   "level": 30,
+   "mimislevel": 30
+ },
+ {
+   "item_id": 10131000,
+   "level": 30,
+   "mimislevel": 30
+ },
+ {
+   "item_id": 10132000,
+   "level": 30,
+   "mimislevel": 30
+ },
+ {
+   "item_id": 10133000,
+   "level": 150,
+   "mimislevel": 150
+ },
+ {
+   "item_id": 10134000,
+   "level": 160,
+   "mimislevel": 160
+ },
+ {
+   "item_id": 10130001,
+   "level": 90,
+   "mimislevel": 90
+ },
+ {
+   "item_id": 10131001,
+   "level": 90,
+   "mimislevel": 90
+ },
+ {
+   "item_id": 10132001,
+   "level": 90,
+   "mimislevel": 90
+ },
+ {
+   "item_id": 10133001,
+   "level": 180,
+   "mimislevel": 180
+ },
+ {
+   "item_id": 10134001,
+   "level": 190,
+   "mimislevel": 190
+ },
+ {
+   "item_id": 10140000,
+   "level": 260,
+   "mimislevel": 260
+ },
+ {
+   "item_id": 10141000,
+   "level": 210,
+   "mimislevel": 210
+ },
+ {
+   "item_id": 10142000,
+   "level": 220,
+   "mimislevel": 220
+ },
+ {
+   "item_id": 10143000,
+   "level": 230,
+   "mimislevel": 230
+ },
+ {
+   "item_id": 10144000,
+   "level": 240,
+   "mimislevel": 240
+ },
+ {
+   "item_id": 10150000,
+   "level": 295,
+   "mimislevel": 295
+ },
+ {
+   "item_id": 10151000,
+   "level": 265,
+   "mimislevel": 265
+ },
+ {
+   "item_id": 10152000,
+   "level": 265,
+   "mimislevel": 265
+ },
+ {
+   "item_id": 10153000,
+   "level": 295,
+   "mimislevel": 295
+ },
+ {
+   "item_id": 10154000,
+   "level": 295,
+   "mimislevel": 295
+ },
+ {
+   "item_id": 10140001,
+   "level": 999,
+   "mimislevel": 999
+ },
+ {
+   "item_id": 10141001,
+   "level": 999,
+   "mimislevel": 999
+ },
+ {
+   "item_id": 10142001,
+   "level": 999,
+   "mimislevel": 999
+ },
+ {
+   "item_id": 10143001,
+   "level": 999,
+   "mimislevel": 999
+ },
+ {
+   "item_id": 10144001,
+   "level": 999,
+   "mimislevel": 999
+ },
+ {
+   "item_id": 10150001,
+   "level": 340,
+   "mimislevel": 340
+ },
+ {
+   "item_id": 10151001,
+   "level": 305,
+   "mimislevel": 305
+ },
+ {
+   "item_id": 10152001,
+   "level": 305,
+   "mimislevel": 305
+ },
+ {
+   "item_id": 10153001,
+   "level": 320,
+   "mimislevel": 320
+ },
+ {
+   "item_id": 10154001,
+   "level": 320,
+   "mimislevel": 320
+ },
+ {
+   "item_id": 10155000,
+   "level": 999,
+   "mimislevel": 999
+ },
+ {
+   "item_id": 10200000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10210000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10211000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10212000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10213000,
+   "level": 30,
+   "mimislevel": 30
+ },
+ {
+   "item_id": 10214000,
+   "level": 70,
+   "mimislevel": 70
+ },
+ {
+   "item_id": 10220000,
+   "level": 20,
+   "mimislevel": 20
+ },
+ {
+   "item_id": 10221000,
+   "level": 20,
+   "mimislevel": 20
+ },
+ {
+   "item_id": 10222000,
+   "level": 20,
+   "mimislevel": 20
+ },
+ {
+   "item_id": 10223000,
+   "level": 80,
+   "mimislevel": 80
+ },
+ {
+   "item_id": 10224000,
+   "level": 140,
+   "mimislevel": 140
+ },
+ {
+   "item_id": 10230000,
+   "level": 40,
+   "mimislevel": 40
+ },
+ {
+   "item_id": 10231000,
+   "level": 40,
+   "mimislevel": 40
+ },
+ {
+   "item_id": 10232000,
+   "level": 40,
+   "mimislevel": 40
+ },
+ {
+   "item_id": 10233000,
+   "level": 160,
+   "mimislevel": 160
+ },
+ {
+   "item_id": 10234000,
+   "level": 170,
+   "mimislevel": 170
+ },
+ {
+   "item_id": 10230001,
+   "level": 100,
+   "mimislevel": 100
+ },
+ {
+   "item_id": 10231001,
+   "level": 100,
+   "mimislevel": 100
+ },
+ {
+   "item_id": 10232001,
+   "level": 100,
+   "mimislevel": 100
+ },
+ {
+   "item_id": 10233001,
+   "level": 190,
+   "mimislevel": 190
+ },
+ {
+   "item_id": 10234001,
+   "level": 200,
+   "mimislevel": 200
+ },
+ {
+   "item_id": 10240000,
+   "level": 255,
+   "mimislevel": 255
+ },
+ {
+   "item_id": 10241000,
+   "level": 215,
+   "mimislevel": 215
+ },
+ {
+   "item_id": 10242000,
+   "level": 225,
+   "mimislevel": 225
+ },
+ {
+   "item_id": 10243000,
+   "level": 235,
+   "mimislevel": 235
+ },
+ {
+   "item_id": 10244000,
+   "level": 243,
+   "mimislevel": 243
+ },
+ {
+   "item_id": 10250001,
+   "level": 300,
+   "mimislevel": 300
+ },
+ {
+   "item_id": 10251001,
+   "level": 280,
+   "mimislevel": 280
+ },
+ {
+   "item_id": 10252001,
+   "level": 280,
+   "mimislevel": 280
+ },
+ {
+   "item_id": 10253001,
+   "level": 300,
+   "mimislevel": 300
+ },
+ {
+   "item_id": 10254001,
+   "level": 300,
+   "mimislevel": 300
+ },
+ {
+   "item_id": 10240001,
+   "level": 999,
+   "mimislevel": 999
+ },
+ {
+   "item_id": 10241001,
+   "level": 999,
+   "mimislevel": 999
+ },
+ {
+   "item_id": 10242001,
+   "level": 999,
+   "mimislevel": 999
+ },
+ {
+   "item_id": 10243001,
+   "level": 999,
+   "mimislevel": 999
+ },
+ {
+   "item_id": 10244001,
+   "level": 999,
+   "mimislevel": 999
+ },
+ {
+   "item_id": 10250000,
+   "level": 340,
+   "mimislevel": 340
+ },
+ {
+   "item_id": 10251000,
+   "level": 305,
+   "mimislevel": 305
+ },
+ {
+   "item_id": 10252000,
+   "level": 305,
+   "mimislevel": 305
+ },
+ {
+   "item_id": 10253000,
+   "level": 320,
+   "mimislevel": 320
+ },
+ {
+   "item_id": 10254000,
+   "level": 320,
+   "mimislevel": 320
+ },
+ {
+   "item_id": 10255000,
+   "level": 999,
+   "mimislevel": 999
+ },
+ {
+   "item_id": 10310000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10311000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10312000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10313000,
+   "level": 40,
+   "mimislevel": 40
+ },
+ {
+   "item_id": 10314000,
+   "level": 90,
+   "mimislevel": 90
+ },
+ {
+   "item_id": 10320000,
+   "level": 20,
+   "mimislevel": 20
+ },
+ {
+   "item_id": 10321000,
+   "level": 20,
+   "mimislevel": 20
+ },
+ {
+   "item_id": 10322000,
+   "level": 20,
+   "mimislevel": 20
+ },
+ {
+   "item_id": 10323000,
+   "level": 120,
+   "mimislevel": 120
+ },
+ {
+   "item_id": 10324000,
+   "level": 160,
+   "mimislevel": 160
+ },
+ {
+   "item_id": 10330000,
+   "level": 60,
+   "mimislevel": 60
+ },
+ {
+   "item_id": 10331000,
+   "level": 60,
+   "mimislevel": 60
+ },
+ {
+   "item_id": 10332000,
+   "level": 60,
+   "mimislevel": 60
+ },
+ {
+   "item_id": 10333000,
+   "level": 170,
+   "mimislevel": 170
+ },
+ {
+   "item_id": 10334000,
+   "level": 210,
+   "mimislevel": 210
+ },
+ {
+   "item_id": 10340000,
+   "level": 140,
+   "mimislevel": 140
+ },
+ {
+   "item_id": 10341000,
+   "level": 150,
+   "mimislevel": 150
+ },
+ {
+   "item_id": 10342000,
+   "level": 200,
+   "mimislevel": 200
+ },
+ {
+   "item_id": 10343000,
+   "level": 200,
+   "mimislevel": 200
+ },
+ {
+   "item_id": 10344000,
+   "level": 200,
+   "mimislevel": 200
+ },
+ {
+   "item_id": 10350000,
+   "level": 256,
+   "mimislevel": 256
+ },
+ {
+   "item_id": 10351000,
+   "level": 215,
+   "mimislevel": 215
+ },
+ {
+   "item_id": 10352000,
+   "level": 224,
+   "mimislevel": 224
+ },
+ {
+   "item_id": 10353000,
+   "level": 233,
+   "mimislevel": 233
+ },
+ {
+   "item_id": 10354000,
+   "level": 242,
+   "mimislevel": 242
+ },
+ {
+   "item_id": 10410000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10411000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10412000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10413000,
+   "level": 50,
+   "mimislevel": 50
+ },
+ {
+   "item_id": 10414000,
+   "level": 110,
+   "mimislevel": 110
+ },
+ {
+   "item_id": 10420000,
+   "level": 20,
+   "mimislevel": 20
+ },
+ {
+   "item_id": 10421000,
+   "level": 20,
+   "mimislevel": 20
+ },
+ {
+   "item_id": 10422000,
+   "level": 20,
+   "mimislevel": 20
+ },
+ {
+   "item_id": 10423000,
+   "level": 130,
+   "mimislevel": 130
+ },
+ {
+   "item_id": 10424000,
+   "level": 160,
+   "mimislevel": 160
+ },
+ {
+   "item_id": 10430000,
+   "level": 70,
+   "mimislevel": 70
+ },
+ {
+   "item_id": 10431000,
+   "level": 70,
+   "mimislevel": 70
+ },
+ {
+   "item_id": 10432000,
+   "level": 70,
+   "mimislevel": 70
+ },
+ {
+   "item_id": 10433000,
+   "level": 170,
+   "mimislevel": 170
+ },
+ {
+   "item_id": 10434000,
+   "level": 190,
+   "mimislevel": 190
+ },
+ {
+   "item_id": 10440000,
+   "level": 200,
+   "mimislevel": 200
+ },
+ {
+   "item_id": 10441000,
+   "level": 200,
+   "mimislevel": 200
+ },
+ {
+   "item_id": 10442000,
+   "level": 200,
+   "mimislevel": 200
+ },
+ {
+   "item_id": 10443000,
+   "level": 200,
+   "mimislevel": 200
+ },
+ {
+   "item_id": 10444000,
+   "level": 200,
+   "mimislevel": 200
+ },
+ {
+   "item_id": 10450000,
+   "level": 253,
+   "mimislevel": 253
+ },
+ {
+   "item_id": 10451000,
+   "level": 210,
+   "mimislevel": 210
+ },
+ {
+   "item_id": 10452000,
+   "level": 219,
+   "mimislevel": 219
+ },
+ {
+   "item_id": 10453000,
+   "level": 229,
+   "mimislevel": 229
+ },
+ {
+   "item_id": 10454000,
+   "level": 239,
+   "mimislevel": 239
+ },
+ {
+   "item_id": 10450001,
+   "level": 300,
+   "mimislevel": 300
+ },
+ {
+   "item_id": 10451001,
+   "level": 285,
+   "mimislevel": 285
+ },
+ {
+   "item_id": 10452001,
+   "level": 285,
+   "mimislevel": 285
+ },
+ {
+   "item_id": 10453001,
+   "level": 300,
+   "mimislevel": 300
+ },
+ {
+   "item_id": 10454001,
+   "level": 300,
+   "mimislevel": 300
+ },
+ {
+   "item_id": 10510000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10511000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10512000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10513000,
+   "level": 60,
+   "mimislevel": 60
+ },
+ {
+   "item_id": 10514000,
+   "level": 130,
+   "mimislevel": 130
+ },
+ {
+   "item_id": 10520000,
+   "level": 20,
+   "mimislevel": 20
+ },
+ {
+   "item_id": 10521000,
+   "level": 20,
+   "mimislevel": 20
+ },
+ {
+   "item_id": 10522000,
+   "level": 20,
+   "mimislevel": 20
+ },
+ {
+   "item_id": 10523000,
+   "level": 150,
+   "mimislevel": 150
+ },
+ {
+   "item_id": 10524000,
+   "level": 160,
+   "mimislevel": 160
+ },
+ {
+   "item_id": 10530000,
+   "level": 80,
+   "mimislevel": 80
+ },
+ {
+   "item_id": 10531000,
+   "level": 80,
+   "mimislevel": 80
+ },
+ {
+   "item_id": 10532000,
+   "level": 80,
+   "mimislevel": 80
+ },
+ {
+   "item_id": 10533000,
+   "level": 180,
+   "mimislevel": 180
+ },
+ {
+   "item_id": 10534000,
+   "level": 200,
+   "mimislevel": 200
+ },
+ {
+   "item_id": 10540000,
+   "level": 258,
+   "mimislevel": 258
+ },
+ {
+   "item_id": 10541000,
+   "level": 212,
+   "mimislevel": 212
+ },
+ {
+   "item_id": 10542000,
+   "level": 222,
+   "mimislevel": 222
+ },
+ {
+   "item_id": 10543000,
+   "level": 230,
+   "mimislevel": 230
+ },
+ {
+   "item_id": 10544000,
+   "level": 240,
+   "mimislevel": 240
+ },
+ {
+   "item_id": 11320000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 11420000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 11520000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 12001001,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 12001002,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 12001003,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10350001,
+   "level": 295,
+   "mimislevel": 295
+ },
+ {
+   "item_id": 10351001,
+   "level": 275,
+   "mimislevel": 275
+ },
+ {
+   "item_id": 10352001,
+   "level": 275,
+   "mimislevel": 275
+ },
+ {
+   "item_id": 10353001,
+   "level": 295,
+   "mimislevel": 295
+ },
+ {
+   "item_id": 10354001,
+   "level": 295,
+   "mimislevel": 295
+ },
+ {
+   "item_id": 10550000,
+   "level": 305,
+   "mimislevel": 305
+ },
+ {
+   "item_id": 10551000,
+   "level": 290,
+   "mimislevel": 290
+ },
+ {
+   "item_id": 10552000,
+   "level": 290,
+   "mimislevel": 290
+ },
+ {
+   "item_id": 10553000,
+   "level": 305,
+   "mimislevel": 305
+ },
+ {
+   "item_id": 10554000,
+   "level": 305,
+   "mimislevel": 305
+ },
+ {
+   "item_id": 10610000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10620000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10630000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10620001,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10630001,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10640001,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10650001,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10650002,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100001,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100002,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100003,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100004,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100005,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100006,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100007,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100008,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100009,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100010,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100011,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100013,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100014,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100015,
+   "level": 31,
+   "mimislevel": 31
+ },
+ {
+   "item_id": 40100016,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100017,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100018,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100019,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100020,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100021,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100023,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100024,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100025,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100026,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100028,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40100029,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40200001,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40200002,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40200003,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40200004,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40200005,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40200006,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40200007,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40300001,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40300002,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40300003,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40300004,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40300005,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40300006,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40300007,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40300008,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40300009,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40300010,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40400001,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40400002,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40400003,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40400004,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40400005,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40400006,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40500001,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40500002,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40500003,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40500004,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40500005,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40500006,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40500007,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40500008,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40500009,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 40500010,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 49900001,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 49900002,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 49900003,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 49900004,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 49900005,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 49900006,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 49900007,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 49900008,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 49900009,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 49900010,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 49900011,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 49900012,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 49900013,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 49900014,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 105000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 105001,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 105002,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 200000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 201000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 201001,
+   "level": 60,
+   "mimislevel": 60
+ },
+ {
+   "item_id": 201002,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 201003,
+   "level": 30,
+   "mimislevel": 30
+ },
+ {
+   "item_id": 201004,
+   "level": 60,
+   "mimislevel": 60
+ },
+ {
+   "item_id": 201005,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 201006,
+   "level": 30,
+   "mimislevel": 30
+ },
+ {
+   "item_id": 201007,
+   "level": 60,
+   "mimislevel": 60
+ },
+ {
+   "item_id": 201008,
+   "level": 80,
+   "mimislevel": 80
+ },
+ {
+   "item_id": 201009,
+   "level": 120,
+   "mimislevel": 120
+ },
+ {
+   "item_id": 201010,
+   "level": 160,
+   "mimislevel": 160
+ },
+ {
+   "item_id": 201011,
+   "level": 80,
+   "mimislevel": 80
+ },
+ {
+   "item_id": 201012,
+   "level": 120,
+   "mimislevel": 120
+ },
+ {
+   "item_id": 201013,
+   "level": 160,
+   "mimislevel": 160
+ },
+ {
+   "item_id": 201014,
+   "level": 170,
+   "mimislevel": 170
+ },
+ {
+   "item_id": 201015,
+   "level": 190,
+   "mimislevel": 190
+ },
+ {
+   "item_id": 201016,
+   "level": 220,
+   "mimislevel": 220
+ },
+ {
+   "item_id": 201017,
+   "level": 170,
+   "mimislevel": 170
+ },
+ {
+   "item_id": 201018,
+   "level": 190,
+   "mimislevel": 190
+ },
+ {
+   "item_id": 201019,
+   "level": 220,
+   "mimislevel": 220
+ },
+ {
+   "item_id": 201020,
+   "level": 170,
+   "mimislevel": 170
+ },
+ {
+   "item_id": 201021,
+   "level": 220,
+   "mimislevel": 220
+ },
+ {
+   "item_id": 201022,
+   "level": 230,
+   "mimislevel": 230
+ },
+ {
+   "item_id": 201023,
+   "level": 250,
+   "mimislevel": 250
+ },
+ {
+   "item_id": 201024,
+   "level": 270,
+   "mimislevel": 270
+ },
+ {
+   "item_id": 201025,
+   "level": 230,
+   "mimislevel": 230
+ },
+ {
+   "item_id": 201026,
+   "level": 250,
+   "mimislevel": 250
+ },
+ {
+   "item_id": 201027,
+   "level": 270,
+   "mimislevel": 270
+ },
+ {
+   "item_id": 201028,
+   "level": 280,
+   "mimislevel": 280
+ },
+ {
+   "item_id": 201029,
+   "level": 300,
+   "mimislevel": 300
+ },
+ {
+   "item_id": 201030,
+   "level": 320,
+   "mimislevel": 320
+ },
+ {
+   "item_id": 201031,
+   "level": 280,
+   "mimislevel": 280
+ },
+ {
+   "item_id": 201032,
+   "level": 300,
+   "mimislevel": 300
+ },
+ {
+   "item_id": 201033,
+   "level": 320,
+   "mimislevel": 320
+ },
+ {
+   "item_id": 201034,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 201035,
+   "level": 330,
+   "mimislevel": 330
+ },
+ {
+   "item_id": 201036,
+   "level": 350,
+   "mimislevel": 350
+ },
+ {
+   "item_id": 201037,
+   "level": 370,
+   "mimislevel": 370
+ },
+ {
+   "item_id": 201038,
+   "level": 330,
+   "mimislevel": 330
+ },
+ {
+   "item_id": 201039,
+   "level": 350,
+   "mimislevel": 350
+ },
+ {
+   "item_id": 201040,
+   "level": 370,
+   "mimislevel": 370
+ },
+ {
+   "item_id": 900101,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 900102,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 900103,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 500000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 400000,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 900104,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 900105,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 900106,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10130002,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10620002,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10630002,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10640002,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10650003,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10650004,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10620003,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10630003,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10640003,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10650005,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10650006,
+   "level": 1,
+   "mimislevel": 1
+ },
+ {
+   "item_id": 10350002,
+   "level": 340,
+   "mimislevel": 340
+ },
+ {
+   "item_id": 10351002,
+   "level": 305,
+   "mimislevel": 305
+ },
+ {
+   "item_id": 10352002,
+   "level": 305,
+   "mimislevel": 305
+ },
+ {
+   "item_id": 10353002,
+   "level": 320,
+   "mimislevel": 320
+ },
+ {
+   "item_id": 10354002,
+   "level": 320,
+   "mimislevel": 320
+ },
+ {
+   "item_id": 10450002,
+   "level": 340,
+   "mimislevel": 340
+ },
+ {
+   "item_id": 10451002,
+   "level": 305,
+   "mimislevel": 305
+ },
+ {
+   "item_id": 10452002,
+   "level": 305,
+   "mimislevel": 305
+ },
+ {
+   "item_id": 10453002,
+   "level": 320,
+   "mimislevel": 320
+ },
+ {
+   "item_id": 10454002,
+   "level": 320,
+   "mimislevel": 320
+ },
+ {
+   "item_id": 10550001,
+   "level": 340,
+   "mimislevel": 340
+ },
+ {
+   "item_id": 10551001,
+   "level": 305,
+   "mimislevel": 305
+ },
+ {
+   "item_id": 10552001,
+   "level": 305,
+   "mimislevel": 305
+ },
+ {
+   "item_id": 10553001,
+   "level": 320,
+   "mimislevel": 320
+ },
+ {
+   "item_id": 10554001,
+   "level": 320,
+   "mimislevel": 320
+ }
+]

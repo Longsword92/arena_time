@@ -1,0 +1,66 @@
+name: arena_time
+description: Checking arena time, market
+publish_to: 'none'
+
+version: 1.0.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  intl: ^0.19.0
+  expandable_datatable: ^0.0.7
+  json_annotation: ^4.8.1
+  dynamic_height_grid_view: ^0.0.4
+  csv: ^6.0.0
+  dartpy:
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  mongo_dart: ^0.10.0
+  file_picker: ^8.0.5
+  flutter_easyloading: ^3.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/laucher.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icon/laucher.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/icon/laucher.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icon/laucher.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/Item/
+    - assets/images/ElementalType/
+    - assets/icon/
+    
+
+    

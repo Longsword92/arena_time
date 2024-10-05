@@ -1,0 +1,658 @@
+[
+ {
+   "40100000": 40100001,
+   "발키리": "새벽의 사자",
+   "FullCostume": "FullCostume",
+   "4": 3,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100002,
+   "발키리": "헬라의 환영",
+   "FullCostume": "FullCostume",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100003,
+   "발키리": "어둠의 발키리",
+   "FullCostume": "FullCostume",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100004,
+   "발키리": "천상의 고양이",
+   "FullCostume": "FullCostume",
+   "4": 2,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100005,
+   "발키리": "창술사 루이",
+   "FullCostume": "FullCostume",
+   "4": 4,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100006,
+   "발키리": "창술사 루시",
+   "FullCostume": "FullCostume",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100007,
+   "발키리": "백마법사 아라엘",
+   "FullCostume": "FullCostume",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100008,
+   "발키리": "마법사 릴리",
+   "FullCostume": "FullCostume",
+   "4": 4,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100009,
+   "발키리": "흑마법사 이블리",
+   "FullCostume": "FullCostume",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100010,
+   "발키리": "도끼 여전사 퓨리오사",
+   "FullCostume": "FullCostume",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100011,
+   "발키리": "마도사 라미아 Lamia",
+   "FullCostume": "FullCostume",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100013,
+   "발키리": "BSC 코스튬 (갈색 발키리)",
+   "FullCostume": "FullCostume",
+   "4": 3,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100014,
+   "발키리": "BSC 코스튬 (흰색 발키리)",
+   "FullCostume": "FullCostume",
+   "4": 3,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100015,
+   "발키리": "천상의 고양이 (사전예약보상)",
+   "FullCostume": "FullCostume",
+   "4": 3,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100016,
+   "발키리": "마법사 릴리 (사전예약보상)",
+   "FullCostume": "FullCostume",
+   "4": 3,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100017,
+   "발키리": "퓨리오사 (사전예약보상)",
+   "FullCostume": "FullCostume",
+   "4": 4,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40100019,
+   "발키리": "창술사 루이 (챔피언쉽 6 보상)",
+   "FullCostume": "FullCostume",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40200001,
+   "발키리": "갈색 머리카락",
+   "FullCostume": "HairCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40200002,
+   "발키리": "파란색 머리카락",
+   "FullCostume": "HairCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40200003,
+   "발키리": "초록색 머리카락",
+   "FullCostume": "HairCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40200004,
+   "발키리": "빨간색 머리카락",
+   "FullCostume": "HairCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40200005,
+   "발키리": "흰색 머리카락",
+   "FullCostume": "HairCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40200006,
+   "발키리": "노란색 머리카락",
+   "FullCostume": "HairCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40200007,
+   "발키리": "검은색 머리카락",
+   "FullCostume": "HairCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300001,
+   "발키리": "갈색 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300002,
+   "발키리": "검은색 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300003,
+   "발키리": "갈색 표범 무늬 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300004,
+   "발키리": "회색 표범 무늬 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300005,
+   "발키리": "흰색 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300006,
+   "발키리": "검붉은색 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300007,
+   "발키리": "흰털 갈색 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300008,
+   "발키리": "흰털 파란색 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300009,
+   "발키리": "흰털 회색 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300010,
+   "발키리": "흰털 파란 유령 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300011,
+   "발키리": "사바나 무늬 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300012,
+   "발키리": "얼룩 무늬 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300013,
+   "발키리": "야광 분홍 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300014,
+   "발키리": "야광 청색 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300015,
+   "발키리": "야광 노랑 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300016,
+   "발키리": "야광 흰색 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300017,
+   "발키리": "야광 녹색 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300018,
+   "발키리": "야광 보라 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300019,
+   "발키리": "검은 털 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40300020,
+   "발키리": "어두운 보라색 귀",
+   "FullCostume": "EarCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40400001,
+   "발키리": "빨간색 눈",
+   "FullCostume": "EyeCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40400002,
+   "발키리": "파란색 눈",
+   "FullCostume": "EyeCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40400003,
+   "발키리": "초록색 눈",
+   "FullCostume": "EyeCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40400004,
+   "발키리": "보라색 눈",
+   "FullCostume": "EyeCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40400005,
+   "발키리": "흰색 눈",
+   "FullCostume": "EyeCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40400006,
+   "발키리": "노란색 눈",
+   "FullCostume": "EyeCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500001,
+   "발키리": "꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500002,
+   "발키리": "검흰색 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500003,
+   "발키리": "갈색 표범 무늬 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500004,
+   "발키리": "회색 표범 무늬 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500005,
+   "발키리": "흰색 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500006,
+   "발키리": "검은색 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500007,
+   "발키리": "빨간색 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500008,
+   "발키리": "파란색 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500009,
+   "발키리": "회색 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500010,
+   "발키리": "파란 유령 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500011,
+   "발키리": "사바나 무늬 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500012,
+   "발키리": "얼룩 무늬 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500013,
+   "발키리": "야광 분홍 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500014,
+   "발키리": "야광 청색 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500015,
+   "발키리": "야광 노랑 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500016,
+   "발키리": "야광 흰색 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500017,
+   "발키리": "야광 녹색 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500018,
+   "발키리": "야광 보라 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500019,
+   "발키리": "검은 털 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 40500020,
+   "발키리": "어두운 보라색 꼬리",
+   "FullCostume": "TailCostume",
+   "4": 1,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 49900001,
+   "발키리": "전설의 모험가",
+   "FullCostume": "Title",
+   "4": 4,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 49900002,
+   "발키리": "최초의 전사",
+   "FullCostume": "Title",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 49900003,
+   "발키리": "Yggdrasil Champion",
+   "FullCostume": "Title",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 49900004,
+   "발키리": "Yggdrasil Challenger",
+   "FullCostume": "Title",
+   "4": 4,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 49900005,
+   "발키리": "Sushi Frontier",
+   "FullCostume": "Title",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 49900006,
+   "발키리": "Yggdrasil Warrior",
+   "FullCostume": "Title",
+   "4": 3,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 49900007,
+   "발키리": "Championship 1 Ranker",
+   "FullCostume": "Title",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 49900008,
+   "발키리": "Championship 2 Ranker",
+   "FullCostume": "Title",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 49900009,
+   "발키리": "2022 Grand Finale",
+   "FullCostume": "Title",
+   "4": 3,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 49900010,
+   "발키리": "Championship 4 Ranker",
+   "FullCostume": "Title",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 49900011,
+   "발키리": "Great Adventurer 1",
+   "FullCostume": "Title",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ },
+ {
+   "40100000": 49900012,
+   "발키리": "Championship 6 Ranker",
+   "FullCostume": "Title",
+   "4": 5,
+   "Normal": "Normal",
+   "FIELD6": ""
+ }
+]
