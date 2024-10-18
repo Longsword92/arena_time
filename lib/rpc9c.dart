@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 
+import 'entitys/arena_scheduler.dart';
 import 'models/avatar.dart';
 import 'my_request.dart';
 
@@ -143,6 +144,60 @@ class RPC9c {
         print(e);
       }
       return null;
+    }
+  }
+
+  Future<List<ArenaScheduler>> getArenaScheduler(ServerName server) async {
+    const query = '''
+          query {
+              sheet(sheetName: "ArenaSheet") {
+                  csv
+              }
+          }
+      ''';
+    try {
+      var s = server == ServerName.Odin ? 'odin' : 'heimdall';
+      var url = "https://mimir.nine-chronicles.dev/$s/graphql";
+      var data = await MyRequest.postRequest(query, url);
+      var csv = data['data']['sheet']['csv'];
+
+      var csvs = csv.split("\n");
+      List<ArenaScheduler> rs = [];
+      for (var i = 0; i < csvs.length; i++) {
+        if (i> 0) {
+          var row = csvs[i].split(",");
+          var id = int.tryParse(row[0]) ?? 0;
+          var round = int.tryParse(row[1]) ?? 0;
+          var arenaType = row[2];
+          var startBlockIndex = int.tryParse(row[3]) ?? 0;
+          var endBlockIndex = int.tryParse(row[4]) ?? 0;
+          var requiredMedalCount = int.tryParse(row[5]) ?? 0;
+          var entranceFee = int.tryParse(row[6]) ?? 0;
+          var ticketPrice = int.tryParse(row[7]) ?? 0;
+          var additionalTicketPrice = int.tryParse(row[8]) ?? 0;
+          var maxPurchaseCount = int.tryParse(row[9]) ?? 0;
+          var maxPurchaseCountDuringInterval = int.tryParse(row[10]) ?? 0;
+          rs.add(ArenaScheduler(
+            id,
+            round,
+            arenaType,
+            startBlockIndex,
+            endBlockIndex,
+            requiredMedalCount,
+            ticketPrice,
+            additionalTicketPrice,
+            maxPurchaseCount,
+            maxPurchaseCountDuringInterval,
+            serverName: server,
+          ));
+        }
+      }
+      return rs;
+    } catch (e) {
+      if (kDebugMode) {
+        print(e);
+      }
+      return [];
     }
   }
 

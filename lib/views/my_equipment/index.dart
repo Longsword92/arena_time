@@ -138,14 +138,14 @@ class _MyEquipmentState extends State<MyEquipment> {
                   if (!e.equipped!)
                     ElevatedButton(
                       style: ButtonStyle(
-                        overlayColor: MaterialStateProperty.resolveWith(
+                        overlayColor: WidgetStateProperty.resolveWith(
                           (states) {
-                            return states.contains(MaterialState.pressed)
+                            return states.contains(WidgetState.pressed)
                                 ? Colors.red
                                 : null;
                           },
                         ),
-                        backgroundColor: MaterialStateProperty.resolveWith(
+                        backgroundColor: WidgetStateProperty.resolveWith(
                           (states) {
                             return Colors.orange;
                           },

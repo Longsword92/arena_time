@@ -42,19 +42,19 @@ class Transaction {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['blockIndex'] = this.blockIndex;
-    data['signature'] = this.signature;
-    data['updatedAddresses'] = this.updatedAddresses;
-    data['updateTime'] = this.updateTime;
-    data['id'] = this.id;
-    data['publicKey'] = this.publicKey;
-    if (this.actions != null) {
-      data['actions'] = this.actions!.map((v) => v.toJson()).toList();
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['blockIndex'] = blockIndex;
+    data['signature'] = signature;
+    data['updatedAddresses'] = updatedAddresses;
+    data['updateTime'] = updateTime;
+    data['id'] = id;
+    data['publicKey'] = publicKey;
+    if (actions != null) {
+      data['actions'] = actions!.map((v) => v.toJson()).toList();
     }
-    data['nonce'] = this.nonce;
-    data['signer'] = this.signer;
-    data['timestamp'] = this.timestamp;
+    data['nonce'] = nonce;
+    data['signer'] = signer;
+    data['timestamp'] = timestamp;
     return data;
   }
 }
@@ -73,10 +73,10 @@ class TransactionAction {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['raw'] = this.raw;
-    data['typeId'] = this.typeId;
-    data['inspection'] = this.inspection;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['raw'] = raw;
+    data['typeId'] = typeId;
+    data['inspection'] = inspection;
     return data;
   }
 }

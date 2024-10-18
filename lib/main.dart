@@ -1,9 +1,8 @@
 import 'dart:async';
-import 'dart:convert';
 
 import 'package:arena_time/api9c.dart';
 import 'package:arena_time/arena_list.dart';
-import 'package:arena_time/file_utils.dart';
+import 'package:arena_time/rpc9c.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 
@@ -99,27 +98,39 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('Arena time'),
         actions: [
+          // IconButton(
+          //   iconSize: 30.0,
+          //   padding: const EdgeInsets.only(right: 15.0),
+          //   icon: Row(
+          //     children: [
+          //       const Icon(Icons.import_export),
+          //       Text(ServerName.Heimdall.name),
+          //     ],
+          //   ),
+          //   onPressed: () => importSchedule(serverName: ServerName.Heimdall),
+          // ),
+          // IconButton(
+          //   iconSize: 30.0,
+          //   padding: const EdgeInsets.only(right: 15.0),
+          //   icon: Row(
+          //     children: [
+          //       const Icon(Icons.import_export),
+          //       Text(ServerName.Odin.name),
+          //     ],
+          //   ),
+          //   onPressed: () => importSchedule(),
+          // )
+
           IconButton(
             iconSize: 30.0,
             padding: const EdgeInsets.only(right: 15.0),
-            icon: Row(
+            icon: const Row(
               children: [
-                const Icon(Icons.import_export),
-                Text(ServerName.Heimdall.name),
+                 Icon(Icons.sync),
+                Text("Schedule"),
               ],
             ),
-            onPressed: () => importSchedule(serverName: ServerName.Heimdall),
-          ),
-          IconButton(
-            iconSize: 30.0,
-            padding: const EdgeInsets.only(right: 15.0),
-            icon: Row(
-              children: [
-                const Icon(Icons.import_export),
-                Text(ServerName.Odin.name),
-              ],
-            ),
-            onPressed: () => importSchedule(),
+            onPressed: () => importSchedules(),
           )
         ],
       ),
@@ -313,46 +324,82 @@ class _HomePageState extends State<HomePage> {
     updateHeimdallAvgTimeBlock();
   }
 
-  void importSchedule({ServerName serverName = ServerName.Odin}) {
+  // void importSchedule({ServerName serverName = ServerName.Odin}) {
+  //   EasyLoading.show(
+  //     status: "Importing for $serverName",
+  //     dismissOnTap: true,
+  //   );
+
+  //   FileUtils.pickFile().then((content) async {
+  //     if (content != null) {
+  //       try {
+  //         var objs = jsonDecode(content);
+  //         List<ArenaScheduler> datas =
+  //             (objs as List).map((e) => ArenaScheduler.fromJson(e)).toList();
+  //         if (datas.isNotEmpty) {
+  //           await _databaseHelper?.deleteAllArenaScheduler(serverName);
+  //           for (var x in datas) {
+  //             x.setServerName(serverName);
+  //           }
+  //           await _databaseHelper?.insertArenaSchedulers(datas);
+  //           setState(() {
+  //             if (serverName == ServerName.Heimdall) {
+  //               _heimdallArenaSchedulers = datas;
+  //             } else if (serverName == ServerName.Odin) {
+  //               _odinArenaSchedulers = datas;
+  //             }
+  //           });
+  //         }
+  //         EasyLoading.dismiss();
+  //       } catch (e) {
+  //         EasyLoading.show(
+  //           status: "Fail",
+  //           dismissOnTap: true,
+  //         );
+  //       }
+  //     } else {
+  //       EasyLoading.show(
+  //         status: "File is invalid",
+  //         dismissOnTap: true,
+  //       );
+  //     }
+  //   });
+  // }
+
+  Future<void> importSchedules() async {
+    importSchedule(serverName: ServerName.Odin);
+    importSchedule(serverName: ServerName.Heimdall);
+  }
+
+  Future<void> importSchedule({ServerName serverName = ServerName.Odin}) async {
     EasyLoading.show(
       status: "Importing for $serverName",
       dismissOnTap: true,
     );
 
-    FileUtils.pickFile().then((content) async {
-      if (content != null) {
-        try {
-          var objs = jsonDecode(content);
-          List<ArenaScheduler> datas =
-              (objs as List).map((e) => ArenaScheduler.fromJson(e)).toList();
-          if (datas.isNotEmpty) {
-            await _databaseHelper?.deleteAllArenaScheduler(serverName);
-            for (var x in datas) {
-              x.setServerName(serverName);
-            }
-            await _databaseHelper?.insertArenaSchedulers(datas);
-            setState(() {
-              if (serverName == ServerName.Heimdall) {
-                _heimdallArenaSchedulers = datas;
-              } else if (serverName == ServerName.Odin) {
-                _odinArenaSchedulers = datas;
-              }
-            });
-          }
-          EasyLoading.dismiss();
-        } catch (e) {
-          EasyLoading.show(
-            status: "Fail",
-            dismissOnTap: true,
-          );
+    try {
+      List<ArenaScheduler> datas = await RPC9c().getArenaScheduler(serverName);
+      if (datas.isNotEmpty) {
+        await _databaseHelper?.deleteAllArenaScheduler(serverName);
+        for (var x in datas) {
+          x.setServerName(serverName);
         }
-      } else {
-        EasyLoading.show(
-          status: "File is invalid",
-          dismissOnTap: true,
-        );
+        await _databaseHelper?.insertArenaSchedulers(datas);
+        setState(() {
+          if (serverName == ServerName.Heimdall) {
+            _heimdallArenaSchedulers = datas;
+          } else if (serverName == ServerName.Odin) {
+            _odinArenaSchedulers = datas;
+          }
+        });
       }
-    });
+      EasyLoading.dismiss();
+    } catch (e) {
+      EasyLoading.show(
+        status: "Fail",
+        dismissOnTap: true,
+      );
+    }
   }
 
   void updateAvgTimeBlock() async {

@@ -7,16 +7,16 @@ class BattleArenaRankingResponse {
     if (json['battleArenaRanking'] != null) {
       battleArenaRanking = <BattleArenaRanking>[];
       json['battleArenaRanking'].forEach((v) {
-        battleArenaRanking!.add(new BattleArenaRanking.fromJson(v));
+        battleArenaRanking!.add(BattleArenaRanking.fromJson(v));
       });
     }
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    if (this.battleArenaRanking != null) {
+    final Map<String, dynamic> data = <String, dynamic>{};
+    if (battleArenaRanking != null) {
       data['battleArenaRanking'] =
-          this.battleArenaRanking!.map((v) => v.toJson()).toList();
+          battleArenaRanking!.map((v) => v.toJson()).toList();
     }
     return data;
   }
@@ -60,17 +60,17 @@ class BattleArenaRanking {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['ranking'] = this.ranking;
-    data['name'] = this.name;
-    data['avatarLevel'] = this.avatarLevel;
-    data['cp'] = this.cp;
-    data['score'] = this.score;
-    data['winCount'] = this.winCount;
-    data['lossCount'] = this.lossCount;
-    data['ticket'] = this.ticket;
-    data['purchasedTicketCount'] = this.purchasedTicketCount;
-    data['ticketResetCount'] = this.ticketResetCount;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['ranking'] = ranking;
+    data['name'] = name;
+    data['avatarLevel'] = avatarLevel;
+    data['cp'] = cp;
+    data['score'] = score;
+    data['winCount'] = winCount;
+    data['lossCount'] = lossCount;
+    data['ticket'] = ticket;
+    data['purchasedTicketCount'] = purchasedTicketCount;
+    data['ticketResetCount'] = ticketResetCount;
     return data;
   }
 }

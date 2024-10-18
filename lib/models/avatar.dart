@@ -176,10 +176,10 @@ class AvatarStates {
   }
 
   bool validate(AvatarStates oldAvatarStates) {
-    if (this.address != oldAvatarStates.address) return true;
+    if (address != oldAvatarStates.address) return true;
 
-    if (this.actionPoint != oldAvatarStates.actionPoint ||
-        this.stageMap?.count != oldAvatarStates.stageMap?.count) return true;
+    if (actionPoint != oldAvatarStates.actionPoint ||
+        stageMap?.count != oldAvatarStates.stageMap?.count) return true;
 
     return false;
   }

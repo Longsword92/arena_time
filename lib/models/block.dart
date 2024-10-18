@@ -24,13 +24,13 @@ class Block {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['hash'] = this.hash;
-    data['index'] = this.index;
-    data['transactionCount'] = this.transactionCount;
-    data['timestamp'] = this.timestamp;
-    data['miner'] = this.miner;
-    data['stateRootHash'] = this.stateRootHash;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['hash'] = hash;
+    data['index'] = index;
+    data['transactionCount'] = transactionCount;
+    data['timestamp'] = timestamp;
+    data['miner'] = miner;
+    data['stateRootHash'] = stateRootHash;
     return data;
   }
 }
