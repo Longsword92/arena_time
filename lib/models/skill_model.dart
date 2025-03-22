@@ -1,4 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
+
+import '../constant.dart';
 part 'skill_model.g.dart';
 
 @JsonSerializable()
@@ -47,27 +49,12 @@ class SkillModel {
     return types[referencedStatType!];
   }
 
-  String get skillCategoryDisplay {
-    var categories = [
-      'NorAtk',
-      'Bltk',
-      'DAtk',
-      'AreaAtk',
-      'BuffRAtk',
-      'Heal',
-      'HPBuff',
-      'AtkBuff',
-      'Defense',
-      'Critical',
-      'Hit',
-      'Speed',
-      'DmgRed',
-      'CriDmg',
-      'Buff',
-      'Debuff',
-      'TickDmg',
-    ];
-    return categories[skillCategory!];
+  SkillCategory? get skillCategoryDisplay {
+    try {
+      return SkillCategory.values[skillCategory!];
+    } catch (e) {
+      return null;
+    }
   }
 
   String get elementalTypeDisplay {

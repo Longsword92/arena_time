@@ -4,13 +4,13 @@ import 'package:http/http.dart' as http;
 
 import 'models/item_product.dart';
 
-const String url9c = 'market.9c.gg';
-const String urlHeimdall9c = 'heimdall-market.9c.gg';
+const String url9c = 'api.9capi.com/marketProviderOdin';
+const String urlHeimdall9c = 'api.9capi.com/marketProviderHeimdall';
 
 class Market {
   static Future<List<ItemProduct>> products(
     int itemType, {
-    int limit = 200,
+    int limit = 400,
     int offset = 0,
     String order = 'cp_desc',
     bool isOdin = true,

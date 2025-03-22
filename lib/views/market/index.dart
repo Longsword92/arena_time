@@ -25,6 +25,7 @@ class _MarketPageState extends State<MarketPage>
   late TabController _tabController;
   String _selectedOrderOption = "ATK";
   bool _isAsc = true;
+  bool _isSpell = false;
 
   @override
   void initState() {
@@ -93,6 +94,14 @@ class _MarketPageState extends State<MarketPage>
                 bottom: 5,
                 right: 0,
                 child: Row(children: [
+                  Checkbox(
+                    value: _isSpell,
+                    onChanged: (bool? value) {
+                      setState(() {
+                        _isSpell = value!;
+                      });
+                    },
+                  ),
                   DropdownButton<String>(
                     value: _selectedOrderOption,
                     icon: const Icon(Icons.select_all_rounded),
@@ -176,10 +185,12 @@ class _MarketPageState extends State<MarketPage>
             : b.registeredBlockIndex! - a.registeredBlockIndex!);
       } else {
         _products.sort((a, b) {
-          StatModel? statModel1 = a.statModels?.firstWhereOrNull(
-              (element) => element.typeDisplay == _selectedOrderOption && (element.additional ?? false));
-          StatModel? statModel2 = b.statModels?.firstWhereOrNull(
-              (element) => element.typeDisplay == _selectedOrderOption && (element.additional ?? false));
+          StatModel? statModel1 = a.statModels?.firstWhereOrNull((element) =>
+              element.typeDisplay == _selectedOrderOption &&
+              (element.additional ?? false));
+          StatModel? statModel2 = b.statModels?.firstWhereOrNull((element) =>
+              element.typeDisplay == _selectedOrderOption &&
+              (element.additional ?? false));
           return _isAsc
               ? (statModel1?.value ?? 0) - (statModel2?.value ?? 0)
               : (statModel2?.value ?? 0) - (statModel1?.value ?? 0);
@@ -196,7 +207,14 @@ class _MarketPageState extends State<MarketPage>
     Market.products(itemType, order: order, isOdin: widget.isOdin)
         .then((products) {
       setState(() {
-        _products = products;
+        if (_isSpell) {
+          _products = products
+              .where((element) => element.skillModels?.isNotEmpty ?? false)
+              .toList();
+        } else {
+          _products = products;
+        }
+
         reSort();
         _isLoading = false;
       });

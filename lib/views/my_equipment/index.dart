@@ -135,36 +135,7 @@ class _MyEquipmentState extends State<MyEquipment> {
                       ],
                     ),
                   ),
-                  if (!e.equipped!)
-                    ElevatedButton(
-                      style: ButtonStyle(
-                        overlayColor: WidgetStateProperty.resolveWith(
-                          (states) {
-                            return states.contains(WidgetState.pressed)
-                                ? Colors.red
-                                : null;
-                          },
-                        ),
-                        backgroundColor: WidgetStateProperty.resolveWith(
-                          (states) {
-                            return Colors.orange;
-                          },
-                        ),
-                      ),
-                      onPressed: () {
-                        // old equiped
-                        var oldEquippeds = costumes.where((element) =>
-                            element.itemSubType == e.itemSubType &&
-                            element.equipped!);
-                        setState(() {
-                          for (var element in oldEquippeds) {
-                            element.equipped = false;
-                          }
-                          e.equipped = true;
-                        });
-                      },
-                      child: const Text('Equip'),
-                    ),
+                  
                 ],
               ),
             ),

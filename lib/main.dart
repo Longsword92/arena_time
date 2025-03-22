@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:convert';
 
 import 'package:arena_time/api9c.dart';
 import 'package:arena_time/arena_list.dart';
@@ -9,6 +10,7 @@ import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'database_helper.dart';
 import 'drawer_menu.dart';
 import 'entitys/arena_scheduler.dart';
+import 'file_utils.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -98,38 +100,32 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('Arena time'),
         actions: [
-          // IconButton(
-          //   iconSize: 30.0,
-          //   padding: const EdgeInsets.only(right: 15.0),
-          //   icon: Row(
-          //     children: [
-          //       const Icon(Icons.import_export),
-          //       Text(ServerName.Heimdall.name),
-          //     ],
-          //   ),
-          //   onPressed: () => importSchedule(serverName: ServerName.Heimdall),
-          // ),
-          // IconButton(
-          //   iconSize: 30.0,
-          //   padding: const EdgeInsets.only(right: 15.0),
-          //   icon: Row(
-          //     children: [
-          //       const Icon(Icons.import_export),
-          //       Text(ServerName.Odin.name),
-          //     ],
-          //   ),
-          //   onPressed: () => importSchedule(),
-          // )
-
           IconButton(
             iconSize: 30.0,
             padding: const EdgeInsets.only(right: 15.0),
-            icon: const Row(
+            icon: Row(
               children: [
-                 Icon(Icons.sync),
-                Text("Schedule"),
+                const Icon(Icons.import_export),
+                Text(ServerName.Heimdall.name),
               ],
             ),
+            onPressed: () => importSchedule(serverName: ServerName.Heimdall),
+          ),
+          IconButton(
+            iconSize: 30.0,
+            padding: const EdgeInsets.only(right: 15.0),
+            icon: Row(
+              children: [
+                const Icon(Icons.import_export),
+                Text(ServerName.Odin.name),
+              ],
+            ),
+            onPressed: () => importSchedule(),
+          ),
+          IconButton(
+            iconSize: 30.0,
+            padding: const EdgeInsets.only(right: 15.0),
+            icon: const Icon(Icons.sync),
             onPressed: () => importSchedules(),
           )
         ],
@@ -324,54 +320,54 @@ class _HomePageState extends State<HomePage> {
     updateHeimdallAvgTimeBlock();
   }
 
-  // void importSchedule({ServerName serverName = ServerName.Odin}) {
-  //   EasyLoading.show(
-  //     status: "Importing for $serverName",
-  //     dismissOnTap: true,
-  //   );
+  void importSchedule({ServerName serverName = ServerName.Odin}) {
+    EasyLoading.show(
+      status: "Importing for $serverName",
+      dismissOnTap: true,
+    );
 
-  //   FileUtils.pickFile().then((content) async {
-  //     if (content != null) {
-  //       try {
-  //         var objs = jsonDecode(content);
-  //         List<ArenaScheduler> datas =
-  //             (objs as List).map((e) => ArenaScheduler.fromJson(e)).toList();
-  //         if (datas.isNotEmpty) {
-  //           await _databaseHelper?.deleteAllArenaScheduler(serverName);
-  //           for (var x in datas) {
-  //             x.setServerName(serverName);
-  //           }
-  //           await _databaseHelper?.insertArenaSchedulers(datas);
-  //           setState(() {
-  //             if (serverName == ServerName.Heimdall) {
-  //               _heimdallArenaSchedulers = datas;
-  //             } else if (serverName == ServerName.Odin) {
-  //               _odinArenaSchedulers = datas;
-  //             }
-  //           });
-  //         }
-  //         EasyLoading.dismiss();
-  //       } catch (e) {
-  //         EasyLoading.show(
-  //           status: "Fail",
-  //           dismissOnTap: true,
-  //         );
-  //       }
-  //     } else {
-  //       EasyLoading.show(
-  //         status: "File is invalid",
-  //         dismissOnTap: true,
-  //       );
-  //     }
-  //   });
-  // }
-
-  Future<void> importSchedules() async {
-    importSchedule(serverName: ServerName.Odin);
-    importSchedule(serverName: ServerName.Heimdall);
+    FileUtils.pickFile().then((content) async {
+      if (content != null) {
+        try {
+          var objs = jsonDecode(content);
+          List<ArenaScheduler> datas =
+              (objs as List).map((e) => ArenaScheduler.fromJson(e)).toList();
+          if (datas.isNotEmpty) {
+            await _databaseHelper?.deleteAllArenaScheduler(serverName);
+            for (var x in datas) {
+              x.setServerName(serverName);
+            }
+            await _databaseHelper?.insertArenaSchedulers(datas);
+            setState(() {
+              if (serverName == ServerName.Heimdall) {
+                _heimdallArenaSchedulers = datas;
+              } else if (serverName == ServerName.Odin) {
+                _odinArenaSchedulers = datas;
+              }
+            });
+          }
+          EasyLoading.dismiss();
+        } catch (e) {
+          EasyLoading.show(
+            status: "Fail",
+            dismissOnTap: true,
+          );
+        }
+      } else {
+        EasyLoading.show(
+          status: "File is invalid",
+          dismissOnTap: true,
+        );
+      }
+    });
   }
 
-  Future<void> importSchedule({ServerName serverName = ServerName.Odin}) async {
+  Future<void> importSchedules() async {
+    syncSchedule(serverName: ServerName.Odin);
+    syncSchedule(serverName: ServerName.Heimdall);
+  }
+
+  Future<void> syncSchedule({ServerName serverName = ServerName.Odin}) async {
     EasyLoading.show(
       status: "Importing for $serverName",
       dismissOnTap: true,
@@ -457,8 +453,8 @@ class _HomePageState extends State<HomePage> {
       _heimdallCurrentBlock = blocks[0].index!;
       debugPrint("$_heimdallCurrentBlock");
       // currenr rank
-      ArenaScheduler? currentArenaInfo =
-          ArenaMaster.getCurrentArena(_heimdallCurrentBlock, _heimdallArenaSchedulers);
+      ArenaScheduler? currentArenaInfo = ArenaMaster.getCurrentArena(
+          _heimdallCurrentBlock, _heimdallArenaSchedulers);
 
       ArenaSeason? arenaSeason =
           currentArenaInfo?.getRoundOnSeason(_heimdallCurrentBlock);

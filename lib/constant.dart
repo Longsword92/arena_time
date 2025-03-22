@@ -99,3 +99,30 @@ enum ServerType {
   odin,
   heimdall,
 }
+
+
+enum SkillCategory {
+  NormalAttack,
+  BlowAttack,
+  DoubleAttack, // Attack enemy two times
+  AreaAttack,
+  BuffRemovalAttack,
+  ShatterStrike, // Damage based on enemy's full HP
+
+  Heal,
+
+  // todo: 코드상에서 버프와 디버프를 버프로 함께 구분하고 있는데, 고도화 될 수록 디버프를 구분해주게 될 것으로 보임.
+  HPBuff,
+  AttackBuff,
+  DefenseBuff,
+  CriticalBuff,
+  HitBuff,
+  SpeedBuff,
+  DamageReductionBuff,
+  CriticalDamageBuff,
+  Buff,
+  Debuff,
+  TickDamage,
+  Focus, // Always hit enemy.
+  Dispel, // Remove/defence debuffs
+}

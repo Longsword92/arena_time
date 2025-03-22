@@ -97,7 +97,7 @@ class ItemProductWidget extends StatelessWidget {
                               SizedBox(
                                 width: 70,
                                 child: Text(
-                                  e.skillCategoryDisplay,
+                                  e.skillCategoryDisplay.toString().split('.').last,
                                   style: const TextStyle(color: Colors.purple),
                                 ),
                               ),
