@@ -4,8 +4,8 @@ import 'package:http/http.dart' as http;
 
 import 'models/item_product.dart';
 
-const String url9c = 'api.9capi.com/marketProviderOdin';
-const String urlHeimdall9c = 'api.9capi.com/marketProviderHeimdall';
+const String url9c = 'https://api.9capi.com/marketProviderOdin';
+const String urlHeimdall9c = 'https://api.9capi.com/marketProviderHeimdall';
 
 class Market {
   static Future<List<ItemProduct>> products(
@@ -16,7 +16,10 @@ class Market {
     bool isOdin = true,
   }) async {
     try {
-      final uri = Uri.https(isOdin ? url9c : urlHeimdall9c, '/Market/products/items/$itemType/', {
+      final uri = Uri.parse(isOdin
+              ? '$url9c/Market/products/items/$itemType/'
+              : '$urlHeimdall9c/Market/products/items/$itemType/')
+          .replace(queryParameters: {
         'limit': "$limit",
         'offset': "$offset",
         'order': order,
